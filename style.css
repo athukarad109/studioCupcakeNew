@@ -57,22 +57,26 @@ form {
     margin: 0 auto;
     width: 70%;
     vertical-align: middle;
-    margin-top: 8%;
+    margin-top: 5%;
 }
 
 textarea {
     resize: none;
 }
 
+.navbar-brand {
+    margin: 20px 20px;
+    margin-left: 6%;
+}
+
 .navbar-brand img {
-    width: 20%;
-    height: 20%;
-    margin: 12px 12px;
+    width: 70%;
+    height: 70%;
 }
 
 .title {
     margin: 0 auto;
-    margin-top: 15%;
+    margin-top: 5%;
     /* border: 2px solid green; */
     width: 75%;
 }
@@ -83,10 +87,11 @@ textarea {
     /* border: 2px solid green; */
     width: 75%;
     font-family: Raleway;
+    color: black;
 }
 
 .title h2 {
-    font-size: 60px;
+    font-size: 65px;
     text-align: left;
     font-family: AbrilFat;
     color: black;
@@ -103,5 +108,26 @@ textarea {
     /* border: 2px solid green; */
     width: 75%;
     color: #ff4800;
-    text-align: center;
+}
+
+.content-p {
+    color: black;
+    font-size: 16px;
+}
+
+.example {
+    margin: 0 auto;
+    margin-top: 3%;
+    font-family: Raleway;
+    /* border: 2px solid green; */
+    width: 75%;
+    color: #ff4800;
+}
+
+.example .heading {
+    font-weight: bold;
+}
+
+.example-text {
+    color: rgb(158, 158, 158);
 }
