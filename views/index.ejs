@@ -48,19 +48,19 @@
 
     <section class="right">
         <div class="form">
-            <form>
+            <form method="post" action="/">
                 <h2 style="color: #ff4800;">Contact us</h2>
                 <div class="mb-3">
                     <!-- <label for="exampleInputPassword1" class="form-label">Name</label> -->
-                    <input type="text" placeholder="Name" class="form-control" id="exampleInputPassword1">
+                    <input type="text" placeholder="Name" name="Name" class="form-control" id="exampleInputPassword1">
                 </div>
                 <div class="mb-3">
                     <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
-                    <input type="email" placeholder="E-mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input type="email" placeholder="E-mail" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
                     <!-- <label for="description" class="form-label">Summary of the servive</label> -->
-                    <textarea class="form-control" name="description" placeholder="Summary of the service" id="" cols="30" rows="10"></textarea>
+                    <textarea class="form-control" name="description" name="description" placeholder="Summary of the service" id="" cols="30" rows="10"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary form-control">Submit</button>
             </form>
